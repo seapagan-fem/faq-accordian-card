@@ -59,14 +59,15 @@ body {
   width: 350px;
 }
 
-.faq-item:not(.active):hover {
-  color: var(--soft-red);
-}
-
 .faq-question {
   position: relative;
   cursor: pointer;
   font-size: 14px;
+  color: var(--very-dark-grayish-blue);
+}
+
+.faq-item:not(.active) .faq-question:hover {
+  color: var(--soft-red);
 }
 
 .faq-question:after {
@@ -79,21 +80,22 @@ body {
   top: 30%;
 }
 
-.active .faq-question:after {
-  transform: rotate(180deg);
-}
-
 .faq-answer {
   display: none;
   padding-top: 11px;
   color: var(--dark-grayish-blue);
 }
 
+/* ---------------------- show and style the active FAQ --------------------- */
 .active .faq-question {
   font-weight: 700;
 }
 .active .faq-answer {
   display: block;
+}
+
+.active .faq-question:after {
+  transform: rotate(180deg);
 }
 
 /* -------------------------- style the attribution ------------------------- */
