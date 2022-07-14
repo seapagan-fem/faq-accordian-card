@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/seapagan-fem/faq-accordian-card)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/faq-accordian-card-ZuXU27W2J6)
 - Live Site URL: [Github Pages](https://seapagan-fem.github.io/faq-accordian-card/)
 
 ## My process
