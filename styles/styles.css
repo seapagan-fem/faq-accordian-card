@@ -106,7 +106,6 @@ body {
 /* ---------------------- show and style the active FAQ --------------------- */
 .active .faq-question {
   font-weight: 700;
-  cursor: default;
 }
 .active .faq-answer {
   display: block;
