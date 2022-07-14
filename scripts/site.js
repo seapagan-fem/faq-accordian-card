@@ -1,5 +1,6 @@
 console.log("Javascript Loaded");
 
+// get all the FAQ's into a NodeList.
 const faqNodes = document.querySelectorAll(".faq-question");
 
 // handle the FAQ click
