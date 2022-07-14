@@ -60,8 +60,8 @@ body {
     url("../images/illustration-woman-online-desktop.svg"),
     url("../images/bg-pattern-desktop.svg");
   background-repeat: no-repeat;
-  background-position: left 65%, center, right 65%;
-  background-size: 150px, contain, auto;
+  background-position: left 63%, center, right 68%;
+  background-size: 170px, contain, auto;
 }
 
 .main-heading {
